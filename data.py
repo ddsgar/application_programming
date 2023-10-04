@@ -1,32 +1,32 @@
 data_ = {
     "students": [
         {
-            "first_name": "John",
-            "last_name": "Doe",
-            "email": "john@example.com",
-            "student_id": "12345",
-            "courses": ["Math", "History"]
+            "first_name": "Gottlib",
+            "last_name": "Daimler",
+            "email": "grossman@gmail.com",
+            "student_id": "122159",
+            "courses": ["Math", "Science"]
         },
         {
-            "first_name": "Jane",
-            "last_name": "Smith",
-            "email": "jane@example.com",
-            "student_id": "67890",
-            "courses": ["Physics", "Chemistry"]
+            "first_name": "Wilhelm",
+            "last_name": "Maibach",
+            "email": "wilmai05@gmail.com",
+            "student_id": "122227",
+            "courses": ["Diffeq", "Programming"]
         }
     ],
     "teachers": [
         {
             "first_name": "Professor",
-            "last_name": "Smith",
-            "email": "prof@example.com",
+            "last_name": "Porsche",
+            "email": "cayman911@gmail.com",
             "teacher_id": "T001",
             "courses_taught": ["Math", "Physics"]
         },
 {
             "first_name": "Professor",
-            "last_name": "Elkin",
-            "email": "elk@example.com",
+            "last_name": "Piech",
+            "email": "quattro@gmail.com",
             "teacher_id": "T002",
             "courses_taught": ["Matan", "Physics"]
         }

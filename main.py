@@ -84,14 +84,10 @@ def load_from_xml(filename):
     return data_
 
 
-# Запись в JSON
 save_to_json("university.json", data_)
 
-# Чтение из JSON
-loaded_data = load_from_json("university.json")
+load_from_json("university.json")
 
-# Запись в XML
 save_to_xml("university.xml", data_)
 
-# Чтение из XML
-loaded_data = load_from_xml("university.xml")
+load_from_xml("university.xml")

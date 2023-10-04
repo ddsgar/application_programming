@@ -1,31 +1,31 @@
 <university>
   <students>
     <student>
-      <first_name>John</first_name>
-      <last_name>Doe</last_name>
-      <email>john@example.com</email>
-      <student_id>12345</student_id>
+      <first_name>Gottlib</first_name>
+      <last_name>Daimler</last_name>
+      <email>grossman@gmail.com</email>
+      <student_id>122159</student_id>
       <courses>
         <course>Math</course>
-        <course>History</course>
+        <course>Science</course>
       </courses>
     </student>
     <student>
-      <first_name>Jane</first_name>
-      <last_name>Smith</last_name>
-      <email>jane@example.com</email>
-      <student_id>67890</student_id>
+      <first_name>Wilhelm</first_name>
+      <last_name>Maibach</last_name>
+      <email>wilmai05@gmail.com</email>
+      <student_id>122227</student_id>
       <courses>
-        <course>Physics</course>
-        <course>Chemistry</course>
+        <course>Diffeq</course>
+        <course>Programming</course>
       </courses>
     </student>
   </students>
   <teachers>
     <teacher>
       <first_name>Professor</first_name>
-      <last_name>Smith</last_name>
-      <email>prof@example.com</email>
+      <last_name>Porsche</last_name>
+      <email>cayman911@gmail.com</email>
       <teacher_id>T001</teacher_id>
       <courses_taught>
         <course>Math</course>
@@ -34,8 +34,8 @@
     </teacher>
     <teacher>
       <first_name>Professor</first_name>
-      <last_name>Elkin</last_name>
-      <email>elk@example.com</email>
+      <last_name>Piech</last_name>
+      <email>quattro@gmail.com</email>
       <teacher_id>T002</teacher_id>
       <courses_taught>
         <course>Matan</course>
