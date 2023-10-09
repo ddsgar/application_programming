@@ -1,46 +1,20 @@
 <university>
   <students>
     <student>
-      <first_name>Gottlib</first_name>
-      <last_name>Daimler</last_name>
-      <email>grossman@gmail.com</email>
-      <student_id>122159</student_id>
-      <courses>
-        <course>Math</course>
-        <course>Science</course>
-      </courses>
-    </student>
-    <student>
-      <first_name>Wilhelm</first_name>
-      <last_name>Maibach</last_name>
-      <email>wilmai05@gmail.com</email>
+      <first_name>Danya</first_name>
+      <last_name>Novikov</last_name>
+      <email>danya@gmail.com</email>
       <student_id>122227</student_id>
-      <courses>
-        <course>Diffeq</course>
-        <course>Programming</course>
-      </courses>
+      <courses>Math, DS</courses>
     </student>
   </students>
   <teachers>
     <teacher>
-      <first_name>Professor</first_name>
-      <last_name>Porsche</last_name>
-      <email>cayman911@gmail.com</email>
-      <teacher_id>T001</teacher_id>
-      <courses_taught>
-        <course>Math</course>
-        <course>Physics</course>
-      </courses_taught>
-    </teacher>
-    <teacher>
-      <first_name>Professor</first_name>
-      <last_name>Piech</last_name>
-      <email>quattro@gmail.com</email>
-      <teacher_id>T002</teacher_id>
-      <courses_taught>
-        <course>Matan</course>
-        <course>Physics</course>
-      </courses_taught>
+      <first_name>Alex</first_name>
+      <last_name>Gennadievich</last_name>
+      <email>elk@stakan.ru</email>
+      <teacher_id>1</teacher_id>
+      <courses_taught>Math</courses_taught>
     </teacher>
   </teachers>
 </university>

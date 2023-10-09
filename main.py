@@ -1,6 +1,5 @@
 import json
 from lxml import etree as ET
-from data import data_
 
 class Person:
     def __init__(self, first_name, last_name, email):
@@ -11,16 +10,16 @@ class Person:
         self.email = email
 
 class Student(Person):
-    def __init__(self, first_name, last_name, email, student_id):
+    def __init__(self, first_name, last_name, email, student_id, courses):
         super().__init__(first_name, last_name, email)
         self.student_id = student_id
-        self.courses = []
+        self.courses = courses
 
 class Teacher(Person):
-    def __init__(self, first_name, last_name, email, teacher_id):
+    def __init__(self, first_name, last_name, email, teacher_id, courses_taught):
         super().__init__(first_name, last_name, email)
         self.teacher_id = teacher_id
-        self.courses_taught = []
+        self.courses_taught = courses_taught
 
 def save_to_json(filename, data):
     with open(filename, 'w') as json_file:
@@ -82,6 +81,19 @@ def load_from_xml(filename):
         data_["teachers"].append(teacher_data)
 
     return data_
+
+data_ = {
+    "students": [],
+    "teachers": []
+}
+
+
+danya = Student("Danya", "Novikov", "danya@gmail.com", "122227", "Math, DS")
+print(vars(danya))
+data_["students"].append(vars(danya))
+
+eLkin = Teacher("Alex", "Gennadievich", "elk@stakan.ru", "1", "Math")
+data_["teachers"].append(vars(eLkin))
 
 
 save_to_json("university.json", data_)
